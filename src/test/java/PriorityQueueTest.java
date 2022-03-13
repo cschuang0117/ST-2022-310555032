@@ -59,6 +59,7 @@ public class PriorityQueueTest {
         Object a[] = null;
         //System.out.println(test.toArray(a));
         //System.out.println("??");
+	//
         Exception exception = assertThrows(NullPointerException.class, ()->{test.toArray();});
     }
 }
